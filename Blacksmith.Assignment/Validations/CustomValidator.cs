@@ -181,7 +181,7 @@ namespace Blacksmith.Assignment.Validations
                 if (IsValidNumber(proprtyvalue))
                     return (Convert.ToInt32(proprtyvalue) < Convert.ToInt32(DesiredValue));
                 else
-                    return true;
+                    return false;
             }
             return true;
         }
